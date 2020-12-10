@@ -15,6 +15,11 @@ for(let i=0; i<muchos_peces.length; i++) {
     console.log("Pez siguiente: " + siguiente_pez)
 
     // Modifica aquí
+    if (siguiente_pez == muchos_peces[1]) {
+        console.log("¡He encontrado a Nemo!")
+    } else {
+        console.log("¡Este pez NO es Nemo!")
+    }
 }
 
 

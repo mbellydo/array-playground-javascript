@@ -19,3 +19,6 @@ console.log(muchos_peces.includes("Pepitillo"))
 /**
  * ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
  */
+muchos_peces.push('Pepitillo')
+
+console.log(muchos_peces.includes("Pepitillo"))

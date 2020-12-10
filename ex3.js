@@ -13,12 +13,12 @@
  */
 
  /**
-  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. Porque el último mensaje dice "Pez siguiente: undefined?"
   */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 
-for(let i=0; i<=muchos_peces.length; i++) {
+for(let i=0; i<muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
     console.log("Pez siguiente: " + siguiente_pez)
 }
